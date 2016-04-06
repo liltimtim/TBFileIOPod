@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "773919E34558EE2D945EF51D1B84D02C69A98C6A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "773919E34558EE2D945EF51D1B84D02C69A98C6A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "47D47F6D-8D8D-4533-A500-34179608D48D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "773919E34558EE2D945EF51D1B84D02C69A98C6A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/Pods\/Pods.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liltimtim\/TBFileIOPod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "773919E34558EE2D945EF51D1B84D02C69A98C6A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liltimtim\/TBFileIO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "773919E34558EE2D945EF51D1B84D02C69A98C6A"
+    }
+  ]
+}

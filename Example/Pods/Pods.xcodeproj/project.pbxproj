@@ -14,7 +14,8 @@
 		C93BE44ABC2E0A5C654E1259E9DE6490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		CA065E6D7EA677AEF5C55BF755DB931F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		E612764809BDE8449D88384BB9798FC4 /* Pods-TBFileIOPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC57E0198D7C6F0F93973FC616B99159 /* Pods-TBFileIOPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FECA7DD11CB57D3D00CD5F59 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA7DD01CB57D3D00CD5F59 /* FileIO.swift */; };
+		FECA7DDA1CB597E800CD5F59 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA7DD01CB57D3D00CD5F59 /* FileIO.swift */; };
+		FECA7DDB1CB59A3500CD5F59 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA7DD01CB57D3D00CD5F59 /* FileIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECA7DDB1CB59A3500CD5F59 /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49981E5FB788D3F69FEB6AE5C9F63122 /* TBFileIOPod-dummy.m in Sources */,
+				FECA7DDA1CB597E800CD5F59 /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1613B7E9780A723B71626BC571B6D8CD /* Pods-TBFileIOPod_Tests-dummy.m in Sources */,
-				FECA7DD11CB57D3D00CD5F59 /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -104,11 +104,21 @@ public class FileIO:NSObject {
         return fileManager.fileExistsAtPath(path)
     }
     
+    public func getContentsOfFile(fromFolder folder:String, fromFile file:String, completion:(object:NSData?, error:NSError?)->Void) {
+        if let directoryPath = documentsDirectory?.URLByAppendingPathComponent(folder).URLByAppendingPathComponent(file).path {
+            completion(object: fileManager.contentsAtPath(directoryPath), error: nil)
+        } else {
+            completion(object: nil, error: ErrorMessages.GeneralError)
+        }
+    }
+    
     public func purgeAllCreatedFolders() -> NSError? {
+        print("purging folders")
         guard documentsDirectory != nil else { return ErrorMessages.NoDocumentsError }
         if let folders = listFolders() {
             for folder in folders {
                 do {
+                    print(folder)
                     try fileManager.removeItemAtURL(folder)
                 } catch let error as NSError {
                     return error
