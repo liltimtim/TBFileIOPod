@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1613B7E9780A723B71626BC571B6D8CD /* Pods-TBFileIOPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3BAC336921E50A0AB6C8206AB0322 /* Pods-TBFileIOPod_Tests-dummy.m */; };
+		49981E5FB788D3F69FEB6AE5C9F63122 /* TBFileIOPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B527490FB1DF84EFC41C637FB26422C /* TBFileIOPod-dummy.m */; };
+		6D0D0F2AB35833479981A01560305085 /* TBFileIOPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBA84656AA9D4CF3985BA93E040F4DA /* TBFileIOPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE378E9B7ED83861BCED4F3052F64B0E /* TBFileIOPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2121D6D7CBC99665E270DBD014A32F9 /* TBFileIOPod.bundle */; };
+		C93BE44ABC2E0A5C654E1259E9DE6490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CA065E6D7EA677AEF5C55BF755DB931F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E612764809BDE8449D88384BB9798FC4 /* Pods-TBFileIOPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC57E0198D7C6F0F93973FC616B99159 /* Pods-TBFileIOPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FECA7DD11CB57D3D00CD5F59 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA7DD01CB57D3D00CD5F59 /* FileIO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76F0AD4E00CE03B7B0B4813C8AB842E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3716FBFDF74B8E3AD1D3EE093F1662BB;
+			remoteInfo = TBFileIOPod;
+		};
+		CCFE0966563BCAC75F2F5B52E1F8E5C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E49E7ACC2A40DF1D787DAAFC8977FEB;
+			remoteInfo = "TBFileIOPod-TBFileIOPod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B527490FB1DF84EFC41C637FB26422C /* TBFileIOPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBFileIOPod-dummy.m"; sourceTree = "<group>"; };
+		2B7F877BC40CA6C08EBE4E17E57D40B0 /* TBFileIOPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBFileIOPod.xcconfig; sourceTree = "<group>"; };
+		36F1FB30F0175C5BFDEF23C99F76BD12 /* Pods-TBFileIOPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBFileIOPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37A95A2A6912D68B37887F77C8FD8C6E /* Pods_TBFileIOPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBFileIOPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CA3BAC336921E50A0AB6C8206AB0322 /* Pods-TBFileIOPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBFileIOPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		613475AAB50130A013F0E6E96C96F165 /* Pods-TBFileIOPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFileIOPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6960108659AB0F682C5A864FFDEEBEEA /* Pods-TBFileIOPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TBFileIOPod_Tests.modulemap"; sourceTree = "<group>"; };
+		82421CC3C7A939C213DE1A1F1EEB4EDC /* TBFileIOPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFileIOPod-prefix.pch"; sourceTree = "<group>"; };
+		868947AABADD018DC080A68F4AF474E9 /* Pods-TBFileIOPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFileIOPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		8B135801D0E6F1FFA5D445DAB01A32DB /* TBFileIOPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBFileIOPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D67BED36FC76F63F01EB8B86AD6D668 /* Pods-TBFileIOPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFileIOPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		961F80151617DD08014154B4600CD88F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A165B9F6535F92B4AAB103B2D25D6C86 /* TBFileIOPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TBFileIOPod.modulemap; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC57E0198D7C6F0F93973FC616B99159 /* Pods-TBFileIOPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBFileIOPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D19F92384E4D282C3FB59C618310B1FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2121D6D7CBC99665E270DBD014A32F9 /* TBFileIOPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBFileIOPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DB9806E62945B251A83076A2E79E24 /* Pods-TBFileIOPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFileIOPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FDF0FB6C4B335108CFF1E1DC3067D984 /* Pods-TBFileIOPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFileIOPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FECA7DD01CB57D3D00CD5F59 /* FileIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
+		FFBA84656AA9D4CF3985BA93E040F4DA /* TBFileIOPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFileIOPod-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89383FC6268E37B3E5DCC3E941D22B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C470D6E69C5CEEBC90501E3E01B0EF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93BE44ABC2E0A5C654E1259E9DE6490 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D21CB22FA3BE2B5B456E4540EC2CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA065E6D7EA677AEF5C55BF755DB931F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153CAAA8BF914DB1A6C8389A5EC80909 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				961F80151617DD08014154B4600CD88F /* Info.plist */,
+				A165B9F6535F92B4AAB103B2D25D6C86 /* TBFileIOPod.modulemap */,
+				2B7F877BC40CA6C08EBE4E17E57D40B0 /* TBFileIOPod.xcconfig */,
+				2B527490FB1DF84EFC41C637FB26422C /* TBFileIOPod-dummy.m */,
+				82421CC3C7A939C213DE1A1F1EEB4EDC /* TBFileIOPod-prefix.pch */,
+				FFBA84656AA9D4CF3985BA93E040F4DA /* TBFileIOPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TBFileIOPod";
+			sourceTree = "<group>";
+		};
+		4535269253F387279675B41BF7804B55 /* TBFileIOPod */ = {
+			isa = PBXGroup;
+			children = (
+				743FD3D719AC78ECC39990DC18FDAC7D /* Pod */,
+				153CAAA8BF914DB1A6C8389A5EC80909 /* Support Files */,
+			);
+			name = TBFileIOPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		743FD3D719AC78ECC39990DC18FDAC7D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				966C2D551B8F328B6E7C5C71F4D15833 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7B1321BAD98540F29B2CE3340522377B /* Pods-TBFileIOPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D19F92384E4D282C3FB59C618310B1FD /* Info.plist */,
+				6960108659AB0F682C5A864FFDEEBEEA /* Pods-TBFileIOPod_Tests.modulemap */,
+				36F1FB30F0175C5BFDEF23C99F76BD12 /* Pods-TBFileIOPod_Tests-acknowledgements.markdown */,
+				8D67BED36FC76F63F01EB8B86AD6D668 /* Pods-TBFileIOPod_Tests-acknowledgements.plist */,
+				5CA3BAC336921E50A0AB6C8206AB0322 /* Pods-TBFileIOPod_Tests-dummy.m */,
+				F8DB9806E62945B251A83076A2E79E24 /* Pods-TBFileIOPod_Tests-frameworks.sh */,
+				868947AABADD018DC080A68F4AF474E9 /* Pods-TBFileIOPod_Tests-resources.sh */,
+				CC57E0198D7C6F0F93973FC616B99159 /* Pods-TBFileIOPod_Tests-umbrella.h */,
+				613475AAB50130A013F0E6E96C96F165 /* Pods-TBFileIOPod_Tests.debug.xcconfig */,
+				FDF0FB6C4B335108CFF1E1DC3067D984 /* Pods-TBFileIOPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-TBFileIOPod_Tests";
+			path = "Target Support Files/Pods-TBFileIOPod_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				AF194DD0764B1EC0EF08BFBEE05EF2A6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CE87103ABD2516856140E1B25B52A38E /* Products */,
+				FC00FB5EF25F658C0BACB91C68DF07E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		966C2D551B8F328B6E7C5C71F4D15833 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FECA7DD01CB57D3D00CD5F59 /* FileIO.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF194DD0764B1EC0EF08BFBEE05EF2A6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4535269253F387279675B41BF7804B55 /* TBFileIOPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE87103ABD2516856140E1B25B52A38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A95A2A6912D68B37887F77C8FD8C6E /* Pods_TBFileIOPod_Tests.framework */,
+				E2121D6D7CBC99665E270DBD014A32F9 /* TBFileIOPod.bundle */,
+				8B135801D0E6F1FFA5D445DAB01A32DB /* TBFileIOPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC00FB5EF25F658C0BACB91C68DF07E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B1321BAD98540F29B2CE3340522377B /* Pods-TBFileIOPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4BF075F738DFFFC24335E2F2C15A9632 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0D0F2AB35833479981A01560305085 /* TBFileIOPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00C15606011C1E9270C48C7C59A7F41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E612764809BDE8449D88384BB9798FC4 /* Pods-TBFileIOPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E49E7ACC2A40DF1D787DAAFC8977FEB /* TBFileIOPod-TBFileIOPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF55B29EA2A3136F44B4C5E597F983B2 /* Build configuration list for PBXNativeTarget "TBFileIOPod-TBFileIOPod" */;
+			buildPhases = (
+				353131DEB58BFACA73C53203E70575C2 /* Sources */,
+				89383FC6268E37B3E5DCC3E941D22B7B /* Frameworks */,
+				6E8B09A82D9B500D988B93074A28E547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TBFileIOPod-TBFileIOPod";
+			productName = "TBFileIOPod-TBFileIOPod";
+			productReference = E2121D6D7CBC99665E270DBD014A32F9 /* TBFileIOPod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3716FBFDF74B8E3AD1D3EE093F1662BB /* TBFileIOPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242757D1CF5BDA6D1EFF96FAD47E151C /* Build configuration list for PBXNativeTarget "TBFileIOPod" */;
+			buildPhases = (
+				A67A52236857B643FD2F5DBCECDCC310 /* Sources */,
+				D9D21CB22FA3BE2B5B456E4540EC2CA0 /* Frameworks */,
+				8626E7A0552416F6E5173A562C1BB60E /* Resources */,
+				4BF075F738DFFFC24335E2F2C15A9632 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0FE6F528E7EFBF93A6E510E6EBF30FC /* PBXTargetDependency */,
+			);
+			name = TBFileIOPod;
+			productName = TBFileIOPod;
+			productReference = 8B135801D0E6F1FFA5D445DAB01A32DB /* TBFileIOPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E2CA590843A7203AC4870A1CDF593C1 /* Pods-TBFileIOPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67874EBDE13EBF9E573E0447208560FE /* Build configuration list for PBXNativeTarget "Pods-TBFileIOPod_Tests" */;
+			buildPhases = (
+				F1246A7CE63F0904D6B17F7C9DB556E0 /* Sources */,
+				C470D6E69C5CEEBC90501E3E01B0EF23 /* Frameworks */,
+				B00C15606011C1E9270C48C7C59A7F41 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94924CE02E1CAB33E6703591FF88E57 /* PBXTargetDependency */,
+			);
+			name = "Pods-TBFileIOPod_Tests";
+			productName = "Pods-TBFileIOPod_Tests";
+			productReference = 37A95A2A6912D68B37887F77C8FD8C6E /* Pods_TBFileIOPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CE87103ABD2516856140E1B25B52A38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E2CA590843A7203AC4870A1CDF593C1 /* Pods-TBFileIOPod_Tests */,
+				3716FBFDF74B8E3AD1D3EE093F1662BB /* TBFileIOPod */,
+				2E49E7ACC2A40DF1D787DAAFC8977FEB /* TBFileIOPod-TBFileIOPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E8B09A82D9B500D988B93074A28E547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8626E7A0552416F6E5173A562C1BB60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE378E9B7ED83861BCED4F3052F64B0E /* TBFileIOPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353131DEB58BFACA73C53203E70575C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67A52236857B643FD2F5DBCECDCC310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49981E5FB788D3F69FEB6AE5C9F63122 /* TBFileIOPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1246A7CE63F0904D6B17F7C9DB556E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1613B7E9780A723B71626BC571B6D8CD /* Pods-TBFileIOPod_Tests-dummy.m in Sources */,
+				FECA7DD11CB57D3D00CD5F59 /* FileIO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94924CE02E1CAB33E6703591FF88E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBFileIOPod;
+			target = 3716FBFDF74B8E3AD1D3EE093F1662BB /* TBFileIOPod */;
+			targetProxy = 76F0AD4E00CE03B7B0B4813C8AB842E9 /* PBXContainerItemProxy */;
+		};
+		F0FE6F528E7EFBF93A6E510E6EBF30FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TBFileIOPod-TBFileIOPod";
+			target = 2E49E7ACC2A40DF1D787DAAFC8977FEB /* TBFileIOPod-TBFileIOPod */;
+			targetProxy = CCFE0966563BCAC75F2F5B52E1F8E5C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E310530708343E6E50877888BE52FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7F877BC40CA6C08EBE4E17E57D40B0 /* TBFileIOPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBFileIOPod/TBFileIOPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBFileIOPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBFileIOPod/TBFileIOPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TBFileIOPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		752309A2F9C947366796EDD39DD9AC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF0FB6C4B335108CFF1E1DC3067D984 /* Pods-TBFileIOPod_Tests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFileIOPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFileIOPod_Tests/Pods-TBFileIOPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TBFileIOPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8157D55C3AD0D7D75074FF49EBE5C763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7F877BC40CA6C08EBE4E17E57D40B0 /* TBFileIOPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBFileIOPod/TBFileIOPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBFileIOPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBFileIOPod/TBFileIOPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TBFileIOPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97CBD365CD662A47C23ED81A0A782622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613475AAB50130A013F0E6E96C96F165 /* Pods-TBFileIOPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TBFileIOPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TBFileIOPod_Tests/Pods-TBFileIOPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TBFileIOPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D11E76314C3FFBA833BB73B0319F9B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7F877BC40CA6C08EBE4E17E57D40B0 /* TBFileIOPod.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TBFileIOPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DBD4095FA4EF4005EFDB39F34BAE0BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7F877BC40CA6C08EBE4E17E57D40B0 /* TBFileIOPod.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TBFileIOPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242757D1CF5BDA6D1EFF96FAD47E151C /* Build configuration list for PBXNativeTarget "TBFileIOPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8157D55C3AD0D7D75074FF49EBE5C763 /* Debug */,
+				2E310530708343E6E50877888BE52FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67874EBDE13EBF9E573E0447208560FE /* Build configuration list for PBXNativeTarget "Pods-TBFileIOPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CBD365CD662A47C23ED81A0A782622 /* Debug */,
+				752309A2F9C947366796EDD39DD9AC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF55B29EA2A3136F44B4C5E597F983B2 /* Build configuration list for PBXNativeTarget "TBFileIOPod-TBFileIOPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11E76314C3FFBA833BB73B0319F9B46 /* Debug */,
+				DBD4095FA4EF4005EFDB39F34BAE0BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

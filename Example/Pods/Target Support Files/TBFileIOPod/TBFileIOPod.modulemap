@@ -1,0 +1,6 @@
+framework module TBFileIOPod {
+  umbrella header "TBFileIOPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

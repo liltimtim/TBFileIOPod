@@ -1,0 +1,14 @@
+PODS:
+  - TBFileIOPod (0.1.0)
+
+DEPENDENCIES:
+  - TBFileIOPod (from `../`)
+
+EXTERNAL SOURCES:
+  TBFileIOPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TBFileIOPod: fd3e89dbee9a490a0e5e54d50348a18a8762e37d
+
+COCOAPODS: 0.39.0
