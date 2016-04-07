@@ -77,4 +77,18 @@ class TBFileIOTests: XCTestCase {
         waitForExpectationsWithTimeout(10, handler: nil)
     }
     
+    func testGetDocumentsInFolder() {
+        FileIO.shared.createFolder(withName: "MyFolder")
+        FileIO.shared.writeObjectToFile(destinationFolder: "MyFolder", withObject: NSData(), withFileName: "MyFile")
+        print(FileIO.shared.getDocumentsInDirectory(directoryName: "MyFolder"))
+        XCTAssertEqual(FileIO.shared.getDocumentsInDirectory(directoryName: "MyFolder")?.count, 1)
+    }
+    
+    func testGetDocumentsInFolderWithInvalidName() {
+        FileIO.shared.createFolder(withName: "MyFolder")
+        FileIO.shared.writeObjectToFile(destinationFolder: "MyFolder", withObject: NSData(), withFileName: "MyFile")
+        print(FileIO.shared.getDocumentsInDirectory(directoryName: "    "))
+        XCTAssertNil(FileIO.shared.getDocumentsInDirectory(directoryName: "    "))
+    }
+    
 }

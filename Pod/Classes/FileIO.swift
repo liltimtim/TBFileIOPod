@@ -130,6 +130,19 @@ public class FileIO:NSObject {
         return nil
     }
     
+    public func getDocumentsInDirectory(directoryName directory:String) -> [String]? {
+        guard documentsDirectory != nil else { return nil }
+        
+        if let path = documentsDirectory?.URLByAppendingPathComponent(directory).path {
+            do {
+                return try fileManager.contentsOfDirectoryAtPath(path)
+            } catch let error as NSError {
+                print(error)
+            }
+        }
+        return nil
+    }
+    
     private func getDocumentDirectory() -> NSURL? {
         let paths = fileManager.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         guard paths.count == 0 else {
