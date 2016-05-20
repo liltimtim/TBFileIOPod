@@ -9,15 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = "TBFileIOPod"
   s.version          = "0.1.1"
-  s.summary          = "A short description of TBFileIOPod."
+  s.summary          = "A library written to make saving NSCoding files easier to the file system"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "A file IO library written to make it easier to save NSCoding compatible objects to the local file system"
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/TBFileIOPod"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
