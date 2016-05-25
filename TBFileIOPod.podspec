@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TBFileIOPod"
-  s.version          = "0.1.1"
+  s.version          = "0.1.3"
   s.summary          = "A library written to make saving NSCoding files easier to the file system"
 
 # This description is used to generate tags and improve search results.
